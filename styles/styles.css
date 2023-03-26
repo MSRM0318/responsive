@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+*{
+    font-family: 'Delicious Handrawn', cursive;
+}
+body{
+    background-image: url(https://img.freepik.com/vector-premium/estilo-corte-papel-blanco-sobre-fondo-blanco-espacio-copia-banner-sitio-web-diseno-grafico_120819-1684.jpg);
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:rgb(199, 147, 58);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-1{
+    height: 50px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 10px 10px #000);
+    cursor: pointer;
+    transition: all 500ms ease-out;
+    opacity: 1;
+    visibility: visible;
+}
+.logo-1:hover{
+    opacity: 1;
+    visibility: visible;
+    color: gold;
+}
+.logo-1:hover{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color:rgb(255, 238, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction:column;
+    }
+    nav{
+        padding: 10 px 0px;
+    }
+} 
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.a{
+  filter: drop-shadow(30px 5px 10px #000);
+  cursor: pointer;
+  transition: all 500ms ease-out;
+  opacity: 1;
+  visibility: visible;
+}
+.lon{
+    height: 900px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 10px 10px #000);
+    cursor: pointer;
+    transition: all 500ms ease-out;
+    opacity: 1;
+    visibility: visible;
+}
+.lon:hover{
+    opacity: 1;
+    visibility: visible;
+    color: gold;
+}
+.lon:hover{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+}
